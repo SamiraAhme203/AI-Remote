@@ -1,6 +1,6 @@
 # AI-Remote - AI PDF Chat Assistant
 
-Transform any PDF document into an interactive, natural conversation. Built with modern web technologies, multi-provider redundancy (Grok AI, OpenAI, Anthropic, Google Gemini, Chrome on-device Gemini Nano), and 100% private client-side processing.
+Transform any PDF document into an interactive, natural conversation. Built with modern web technologies, multi-provider redundancy (Grok AI, OpenAI, Anthropic, Google Gemini, Chrome on-device Gemini Nano).
 
 ## What is it?
 
@@ -10,8 +10,8 @@ AI PDF Chat Assistant transforms any PDF document into an interactive, natural c
 
 ### 📄 Client-Side PDF Processing
 - Drag and drop any PDF document directly into the browser.
-- 100% private and on-device text parsing using PDF.js.
-- Your documents are processed entirely in the browser and never uploaded to third-party servers.
+- PDF text is extracted in the browser using PDF.js
+- With a cloud AI key, the extracted text is sent to that AI provider
 
 ### ⚡ Multi-Provider Redundancy & Intelligent Failover
 - **Grok AI (xAI)**: Ultra-fast document comprehension and conversational reasoning.
